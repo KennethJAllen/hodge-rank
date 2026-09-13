@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Project data (Yelp dump is license-restricted; shapefiles are large)
+/data/
+*.duckdb
+*.duckdb.wal
+
+# uv
+uv.lock.bak
+
+# Editors
+.vscode/
+.idea/
